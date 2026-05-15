@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
             );
           }
           if (snapshot.hasData) return const MainShell();
-          return const AuthPage();
+          return const MainShell();
         },
       ),
     );
